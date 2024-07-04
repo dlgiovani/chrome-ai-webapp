@@ -6,7 +6,7 @@ This is the first program to make the local Gemini instance fully remember the c
 
 This app does not uses any wrappers for the built-in AI.
 
-You can visit a live version (here)[https://github.com/dlgiovani/chrome-ai-webapp/tree/main], but keep in mind that you'll need to have a proper environment (as described below) to use it.
+You can visit a live version [here](https://github.com/dlgiovani/chrome-ai-webapp/tree/main), but keep in mind that you'll need to have a proper environment (as described below) to use it.
 
 > [!NOTE]
 > this is an experimental feature in Chrome, and available only in more advanced versions.
