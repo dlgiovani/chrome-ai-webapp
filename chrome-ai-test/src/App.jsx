@@ -128,7 +128,8 @@ ${text}` : text;
 
   const notSupportedPanel = <section className='absolute flex justify-center items-center w-screen h-screen overflow-hidden backdrop-blur-sm z-50'>
     <div className='bg-neutral-700 rounded text-white w-84 flex flex-col gap-4 max-w-[80%] h-[90%] p-12 overflow-y-auto'>
-      <h1 className='text-2xl font-bold text-center'>Chrome AI chatbot Proof of Concept</h1>
+      <h1 className='text-2xl font-bold text-center leading-none'>Chrome AI chatbot Proof of Concept</h1>
+      <h2 className='text-xl font-semibold text-center leading-none'>With persistent context</h2>
       <a href='https://dlgiovani.github.io' target='_blank' className='underline text-center'>by Giovani</a>
       <div>
         <h2 className='text-xl font-bold text-red-400'>Not available in this browser yet</h2>
