@@ -6,8 +6,8 @@ import './App.css'
 
 async function createSession() {
   try {
-    const s = await window.ai.createTextSession({ temperature: 1.2, topK: 10 });
-    // const s = await window.ai.createTextSession();
+    // const s = await window.ai.createTextSession({ temperature: 1.2, topK: 10 });
+    const s = await window.ai.createTextSession();
     return s;
   } catch (error) {
     console.error('Failed to create session:', error);
@@ -70,9 +70,7 @@ function App() {
       mappedChat = mappedChat.substring(removeSize);
     }
     let promptText = chat.length > 0 ? 
-` context:
-${mappedChat}
-<ctrl23>
+`${mappedChat} <ctrl23>
 ${text}` : text;
 
     console.log(promptText);
@@ -93,6 +91,7 @@ ${text}` : text;
         setSession((old) => {
           old.destroy();
         })
+        setChat((old) => old.slice(0, -1));
         initSession();
         return;
       }
