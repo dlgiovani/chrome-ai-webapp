@@ -1,7 +1,7 @@
 > [!NOTE]
 > this is an experimental feature in Chrome, and available only in more advanced versions.
 
-This AI accesses an offline API provided locally by Chrome versions 127 or above.
+This AI accesses an offline API provided locally by Chrome versions 128 or above.
 
 ### Steps to Access the API
 
