@@ -1,3 +1,11 @@
+# Chrome AI Assistant WebApp
+
+This app succesfully creates a session and keeps context, the the built-in AI will remember what you asked.
+
+This is the first program to make the local Gemini instance fully remember the context, as far as I am concerned.
+
+This app does not uses any wrappers for the built-in AI.
+
 > [!NOTE]
 > this is an experimental feature in Chrome, and available only in more advanced versions.
 
